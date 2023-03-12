@@ -6,5 +6,5 @@ version = "0.0.1"
 where = ["export"]
 [tool.poetry.dependencies]
 dependencies = [
-    "com.softalks.debuggable @ git+http://git@github.com/hiebra/debuggable.py@v0.0.1",
+    "com.softalks.debuggable @ git+https://github.com/hiebra/debuggable.py@v0.0.1",
 ]
