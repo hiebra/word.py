@@ -1,0 +1,6 @@
+[project]
+name = "com.softalks.word"
+description = "Overrides print to allow word wrapping over stdout"
+version = "0.0.1"
+[tool.setuptools.packages.find]
+where = ["export"]
