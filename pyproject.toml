@@ -4,3 +4,7 @@ description = "Overrides print to allow word wrapping over stdout"
 version = "0.0.1"
 [tool.setuptools.packages.find]
 where = ["export"]
+[tool.poetry.dependencies]
+dependencies = [
+    "com.softalks.debuggable @ git+http://git@github.com/hiebra/debuggable.py@v0.0.1",
+]
