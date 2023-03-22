@@ -9,5 +9,5 @@ dependencies = [
     "com.softalks.debug @ git+https://github.com/hiebra/rpdb@v0.0.1",
 ]
 [tool.setuptools.packages.find]
-where = ["export"]
+where = ["exported"]
 
