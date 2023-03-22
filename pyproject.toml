@@ -1,9 +1,12 @@
 [project]
-name = "com.softalks.word"
+name = "com.softalks.words"
 description = "Overrides print to allow word wrapping over stdout"
 version = "0.0.1"
+authors = [
+  {name = "Santiago Ruiz", email= "hiebra@hotmail.com"}
+]
 dependencies = [
-    "com.softalks.debuggable @ git+https://github.com/hiebra/debuggable.py@v0.0.1",
+    "com.softalks.debug @ git+https://github.com/hiebra/rpdb@v0.0.1",
 ]
 [tool.setuptools.packages.find]
 where = ["export"]
