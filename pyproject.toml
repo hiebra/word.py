@@ -1,6 +1,6 @@
 [project]
 name = "com.softalks.words"
-description = "Overrides print to allow word wrapping over stdout"
+description = "A thin layer over 'print' providing word wrapping over stdout"
 version = "0.0.1"
 authors = [
   {name = "Santiago Ruiz", email= "hiebra@hotmail.com"}
